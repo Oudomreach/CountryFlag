@@ -1,0 +1,23 @@
+            {/* <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-0'>  
+                {
+                    countries.map((country, i) => {
+                        return(
+                            <CountryCard
+                                key={i}
+                                flags={country?.flags?.png}
+                                alt={country?.flags?.alt}
+                                name={country?.name}
+                                officialName={country?.name?.official}
+                                capitalName = {country?.capital}
+                                alternativeName = {country?.altSpellings}
+                                code2 = {country?.cca2}
+                                code3 = {country?.cca3}
+                                dialingCodes = {`${country?.idd?.root}${country?.idd?.suffixes}`}
+                                // dialingCodes={country?.root} + {country?.suffixes}
+                                // alternativeName={}
+                                // nativeName={Object.keys(country?.name.nativeName).length > 0 ? country?.name?.nativeName[Object.keys(country?.name.nativeName)[0]] : '' }
+                            />
+                        )
+                    })
+                }
+                </div> */}
